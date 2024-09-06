@@ -19,7 +19,7 @@ Commit’ы могут содержать следующие структурн�
 BREAKING CHANGE может быть частью commit’а любого типа.
 
 Commit’ы с типами, которые отличаются от `fix:` и `feat:`, также разрешены.
-Например, @commitlint/config-conventional (основанный на The Angular convention) рекомендует: `chore:`, `docs:`, `style:`, `refactor:`, `perf:`, `test:`, и другие.
+Например, [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) (основанный на The Angular convention) рекомендует: `chore:`, `docs:`, `style:`, `refactor:`, `perf:`, `test:`, и другие.
 
 ### Типы
 * `feat` :sparkles: Commits, that adds or remove a new feature
@@ -33,6 +33,9 @@ Commit’ы с типами, которые отличаются от `fix:` и 
 * `ops` :hammer: Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...
 * `chore` :construction: Miscellaneous commits e.g. modifying `.gitignore`, Work in progress., ...
 * `revert` :rewind: Revert
+
+### Иконки
+https://gitmoji.dev/
 
 ### Примеры
 - Первый commit в ветке:
@@ -70,5 +73,7 @@ BREAKING CHANGE: dropping Node 6 which hits end of life in April
 ```
 
 ### Инструменты
-Commitlint
+[Commitlint](https://commitlint.js.org/reference/cli)
+
+[Commitlint use promt](https://commitlint.js.org/guides/use-prompt)
 
