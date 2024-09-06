@@ -22,17 +22,17 @@ Commit’ы с типами, которые отличаются от `fix:` и 
 Например, [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) (основанный на The Angular convention) рекомендует: `chore:`, `docs:`, `style:`, `refactor:`, `perf:`, `test:`, и другие.
 
 ### Типы
-* `feat` :sparkles: Commits, that adds or remove a new feature
-* `fix` :bug: Commits, that fixes a bug
-* `refactor` :recycle: Commits, that rewrite/restructure your code, however does not change any API behaviour
-* `perf` :zap: Commits that improve performance
-* `style` :lipstick: Commits, that do not affect the meaning (white-space, formatting, missing semi-colons, etc)
-* `test` :white_check_mark: Commits, that add missing tests or correcting existing tests
-* `docs` :memo: Commits, that affect documentation only
-* `build` :construction_worker: Commits, that affect build components like build tool, ci pipeline, dependencies, project version, ...
-* `ops` :hammer: Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...
-* `chore` :construction: Miscellaneous commits e.g. modifying `.gitignore`, Work in progress., ...
-* `revert` :rewind: Revert
+* `feat` :sparkles: `:sparkles:` Commits, that adds or remove a new feature
+* `fix` :bug: `:bug:` Commits, that fixes a bug
+* `refactor` :recycle: `:recycle:` Commits, that rewrite/restructure your code, however does not change any API behaviour
+* `perf` :zap: `:zap:` Commits that improve performance
+* `style` :lipstick: `:lipstick:` Commits, that do not affect the meaning (white-space, formatting, missing semi-colons, etc)
+* `test` :white_check_mark: `:white_check_mark:` Commits, that add missing tests or correcting existing tests
+* `docs` :memo: `:memo:` Commits, that affect documentation only
+* `build` :construction_worker: `:construction_worker:` Commits, that affect build components like build tool, ci pipeline, dependencies, project version, ...
+* `ops` :hammer: `:hammer:` Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...
+* `chore` :construction: `:construction:` Miscellaneous commits e.g. modifying `.gitignore`, Work in progress., ...
+* `revert` :rewind: `:rewind:` Revert
 
 ### Иконки
 https://gitmoji.dev/
@@ -47,6 +47,15 @@ https://gitmoji.dev/
 ```  
 123: docs: correct spelling of CHANGELOG
 ```
+
+- Сообщение commit’а с иконкой:
+  
+`"`123: :memo: docs: correct spelling of CHANGELOG`"`
+```  
+123: :memo: docs: correct spelling of CHANGELOG
+```
+
+
 
 - Сообщение commit’а с указанием контекста (scope):
 
