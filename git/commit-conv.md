@@ -82,7 +82,7 @@ BREAKING CHANGE: dropping Node 6 which hits end of life in April
 ```
 
 ### Инструменты
-[Commitlint](https://commitlint.js.org/reference/cli)
+[Commit lint](https://commitlint.js.org/reference/cli)
 
-[Commitlint use promt](https://commitlint.js.org/guides/use-prompt)
+[Commit lint use promt](https://commitlint.js.org/guides/use-prompt)
 
