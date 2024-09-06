@@ -40,7 +40,7 @@ https://gitmoji.dev/
 ### Примеры
 - Первый commit в ветке:
 ```  
-123: :tada: initial commit
+123: initial commit
 ```
   
 - Сообщение commit’а без тела:
