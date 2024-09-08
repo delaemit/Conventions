@@ -86,10 +86,9 @@ App -> User: Renders Updated View
 - JSDoc - документирование кода. Интегрируется с Mermaid, PlantUml для создания диаграмм, а так же с для создания сайта с документацией кода.
 - [Mermaid](https://github.com/mermaid-js/mermaid) - рисование диаграмм используя текстовое описание
 - [Plantuml](https://plantuml.com/) - рисование диаграмм используя текстовое описание
-
-- [StoryBook]- для описания и тестирования UI kit'а
-
-- Draw.io - рисование диаграмм отруки
 - [SequenceDiagram](https://www.sequencediagram.org/) - web редактор для создания диаграмм последовательности
+- [StoryBook](https://storybook.js.org/)- для описания и тестирования UI kit'а
+- [Draw.io](https://app.diagrams.net/) - рисование диаграмм отруки
+
  
 
