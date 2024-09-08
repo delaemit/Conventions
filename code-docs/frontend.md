@@ -82,12 +82,17 @@ API -> Component: Returns Data
 Component -> App: Updates State
 App -> User: Renders Updated View
 ```
+
+## D. Документирование специфических аспектов React
+- **Управление состоянием:** Если используете Redux или Context API, включите диаграммы, показывающие, как состояние передается и как различные компоненты взаимодействуют с состоянием.
+- **Маршрутизация:** Включите диаграммы, показывающие структуру маршрутизации и связь компонентов с маршрутами.
+
 ## D. Инструменты
 - JSDoc - документирование кода. Интегрируется с Mermaid, PlantUml для создания диаграмм, а так же с для создания сайта с документацией кода.
 - [Mermaid](https://github.com/mermaid-js/mermaid) - рисование диаграмм используя текстовое описание
 - [Plantuml](https://plantuml.com/) - рисование диаграмм используя текстовое описание
 - [SequenceDiagram](https://www.sequencediagram.org/) - web редактор для создания диаграмм последовательности
-- [StoryBook](https://storybook.js.org/)- для описания и тестирования UI kit'а
+- [StoryBook](https://storybook.js.org/)- для описания и тестирования UI kit'а и Hook'ов
 - [Draw.io](https://app.diagrams.net/) - рисование диаграмм отруки
 
  
