@@ -4,7 +4,7 @@
 
 Сообщения commit’ов должны быть следующей структуры:
 ```
-[optional task number]: <type>[optional scope]: <optional icon> <description>
+[optional task number]: <optional icon> <type>[optional scope]: <description>
 
 [optional body]
 
