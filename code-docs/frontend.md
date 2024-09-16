@@ -94,14 +94,24 @@ class Header {
 
 - **Пример:**
 
+```mermaid
+sequenceDiagram
+    Client(Frontend - Next.js) ->> Middleware(Next.js): Request with cookie
+    loop Check Cookie Validity
+        Middleware(Next.js) ->> Middleware(Next.js): Validate cookie
+    end
+    Middleware(Next.js) ->> Server(Nest.js): Forward request with cookie
+
+    alt Cookie is valid
+        Server(Nest.js) ->> Middleware(Next.js): Success response
+        Middleware(Next.js) ->> Client(Frontend - Next.js): Forward protected route
+    else Cookie is invalid
+        Server(Nest.js) ->> Middleware(Next.js): Error 401,404, etc
+        Middleware(Next.js) ->> Client(Frontend - Next.js): Forward redirect to sign-in/sign-up
+    end
 ```
-User -> App: Clicks Button
-App -> Component: Passes Data
-Component -> API: Fetches Data
-API -> Component: Returns Data
-Component -> App: Updates State
-App -> User: Renders Updated View
-```
+
+---
 
 ## D. Документирование специфических аспектов React\Next JS
 - **Управление состоянием:** Если используете Redux или Context API, включите диаграммы, показывающие, как состояние передается и как различные компоненты взаимодействуют с состоянием.
