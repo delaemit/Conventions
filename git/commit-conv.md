@@ -22,6 +22,7 @@ Commit’ы с типами, которые отличаются от `fix:` и 
 Например, [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) (основанный на The Angular convention) рекомендует: `chore:`, `docs:`, `style:`, `refactor:`, `perf:`, `test:`, и другие.
 
 ### Типы
+* `initial commit` :tada: `:tada:` Это пустой коммит, создаётся сразу после, создания ветки под новый функционал.
 * `feat` :sparkles: `:sparkles:` Commits, that adds or remove a new feature
 * `fix` :bug: `:bug:` Commits, that fixes a bug
 * `refactor` :recycle: `:recycle:` Commits, that rewrite/restructure your code, however does not change any API behaviour
@@ -40,19 +41,19 @@ https://gitmoji.dev/
 ### Примеры
 - Первый commit в ветке:
 ```  
-123: initial commit
+feature/123: initial commit
 ```
   
 - Сообщение commit’а без тела:
 ```  
-123: docs: correct spelling of CHANGELOG
+feature/123: docs: correct spelling of CHANGELOG
 ```
 
 - Сообщение commit’а с иконкой:
   
-`"`123: :memo: docs: correct spelling of CHANGELOG`"`
+`"`feature/123: :memo: docs: correct spelling of CHANGELOG`"`
 ```  
-123: :memo: docs: correct spelling of CHANGELOG
+feature/123: :memo: docs: correct spelling of CHANGELOG
 ```
 
 
@@ -60,7 +61,7 @@ https://gitmoji.dev/
 - Сообщение commit’а с указанием контекста (scope):
 
 ```
-123: feat(api): add polish language
+feature/123: feat(api): add polish language
 ```
 
 - Сообщение commit’а, исправляющего ошибку (fix) с телом:
