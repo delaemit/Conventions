@@ -31,17 +31,21 @@
 3. Используйте инструмент для создания диаграммы, отображая компоненты и их связи.
 
 - **Пример:**
+```ts
+/
+├── app
+│   ├── providers, etc files    # setup global providers, layout, error + notfound page,
+│   └── (main)/                 # protected main application pages
+│
+└── src
+    ├── page        # full pages
+    ├── widgets     # large UI components
+    ├── features    # reused product features
+    ├── entities    # business entities
+    └── shared      # reusable data
 ```
-[App]
- | 
- +-- [Header]
- |
- +-- [MainContent]
-      |
-      +-- [Sidebar]
-      |
-      +-- [ContentArea]
-```
+
+---
 
 ## B. Диаграмма классов
 
