@@ -7,9 +7,9 @@
 - Readme Convention
 
 ## Code Documentation
-- [Frontend Code Documentation](code-docs/frontend.md)
-- Backend Code Documentation
-- Backend Api Documentation
+- [JS Code Documentation](code-docs/frontend.md)
+- PHP Code Documentation
+- Api Documentation
   
 ## Starter Kits
 - BackEnd
