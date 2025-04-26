@@ -15,16 +15,25 @@ Commit’ы могут содержать следующие структурн�
 
 - **fix**: commit типа `fix` исправляет ошибку (bug) в вашем коде.
 - **feat**: commit типа `feat` добавляет новую функцию (feature) в ваш код.
-**BREAKING CHANGE:** commit, который содержит текст `BREAKING CHANGE:` в начале своего не обязательного тела сообщения (body) или в подвале (footer), добавляет изменения, нарушающие обратную совместимость вашего API.
+- **BREAKING CHANGE:** commit, который содержит `!` или текст `BREAKING CHANGE:` в начале своего не обязательного тела сообщения (body) или в подвале (footer), добавляет изменения, нарушающие обратную совместимость вашего API.
 BREAKING CHANGE может быть частью commit’а любого типа.
 
 Commit’ы с типами, которые отличаются от `fix:` и `feat:`, также разрешены.
 Например, [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) (основанный на The Angular convention) рекомендует: `chore:`, `docs:`, `style:`, `refactor:`, `perf:`, `test:`, и другие.
 
 ### Типы
-* `initial commit` :tada: `:tada:` Это пустой коммит, создаётся сразу после, создания ветки под новый функционал.
-* `feat` :sparkles: `:sparkles:` Commits, that adds or remove a new feature
-* `fix` :bug: `:bug:` Commits, that fixes a bug
+* :tada: `initial commit` Это пустой коммит, создаётся сразу после, создания ветки под новый функционал.
+* ```
+  :tada: initial commit
+  ```
+* :sparkles: `feat:` Коммит с новым функционалом(фичей).
+* ```
+  :sparkles: feat: 
+  ```
+* :bug: `fix:` Коммит, исправляющий ошибку(баг).
+* ```
+  :bug: fix: 
+  ```
 * `refactor` :recycle: `:recycle:` Commits, that rewrite/restructure your code, however does not change any API behaviour
 * `perf` :zap: `:zap:` Commits that improve performance
 * `style` :lipstick: `:lipstick:` Commits, that reformat code and do not affect the meaning (white-space, formatting, missing semi-colons, etc)
