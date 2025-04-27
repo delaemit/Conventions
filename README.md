@@ -2,7 +2,8 @@
 - [Commit Convention](git/commit-conv.md)
 - [Branch Convention](git/branch-conv.md)
 - [Pull Request Template](git/pr-conv.md)
-- Readme Convention
+- [Release Flow](https://github.com/delaemit/Conventions/blob/main/git/branch-conv.md#release)
+- Readme Template
 
 ## Code Documentation
 - [JS Code Documentation](code-docs/frontend.md)
