@@ -83,7 +83,7 @@ see the issue for details on the typos fixed
 closes issue #12
 ```
 
-- Сообщение commit’a с не обязательным !, для того, чтобы привлечь внимание к изменениям, нарушающим обратную совместимость:
+- Сообщение breaking change commit’a с `!`, для того, чтобы привлечь внимание к изменениям, нарушающим обратную совместимость:
   
 ```
 chore!: drop Node 6 from testing matrix
