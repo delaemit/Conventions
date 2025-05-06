@@ -9,7 +9,11 @@
 - [JS Code Documentation](code-docs/frontend.md)
 - PHP Code Documentation
 - Api Documentation
-  
+
+## Architectures
+- [FE Architecture - FSD](arch/fsd.md)
+
+
 ## Starter Kits
 - BackEnd
 - FrontEnd
