@@ -1,5 +1,9 @@
 ## Regulations
+- Managment Department
+- Development Department
 - [Design Department](regulations/design-dep.md)
+- QA Department
+
 
 ## Git
 - [Commit Convention](git/commit-conv.md)
