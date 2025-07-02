@@ -1,3 +1,6 @@
+## Regulations
+- [Design Department](regulations/design-dep.md)
+
 ## Git
 - [Commit Convention](git/commit-conv.md)
 - [Branch Convention](git/branch-conv.md)
