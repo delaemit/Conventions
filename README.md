@@ -1,9 +1,4 @@
-## Regulations
-- Managment Department
-- Development Department
-- [Design Department](regulations/design-dep.md)
-- QA Department
-- HR Department
+
 
 
 ## Git
