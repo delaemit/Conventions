@@ -4,18 +4,18 @@
 
 Сообщения commit’ов должны быть следующей структуры:
 ```
-[optional task number]: <optional icon> <type>[optional scope]: <description>
+[номер задачи]: <опционально: icon> <тип>[опционально: scope]: <описание>
 
-[optional body]
+[опционально: тело коммита]
 
-[optional footer]
+[опционально: footer]
 ```
 
 Commit’ы могут содержать следующие структурные элементы для сообщений:
 
 - **fix**: commit типа `fix` исправляет ошибку (bug) в вашем коде.
 - **feat**: commit типа `feat` добавляет новую функцию (feature) в ваш код.
-- **BREAKING CHANGE:** commit, который содержит `!` или текст `BREAKING CHANGE:` в начале своего не обязательного тела сообщения (body) или в подвале (footer), добавляет изменения, нарушающие обратную совместимость вашего API.
+- **BREAKING CHANGE:** commit, который содержит `!` или текст `BREAKING CHANGE:` в начале своего описания или не обязательного тела сообщения (body) или в подвале (footer), добавляет изменения, нарушающие обратную совместимость вашего API.
 BREAKING CHANGE может быть частью commit’а любого типа.
 
 Commit’ы с типами, которые отличаются от `fix:` и `feat:`, также разрешены.
@@ -23,6 +23,7 @@ Commit’ы с типами, которые отличаются от `fix:` и 
 
 ### Типы
 * :tada: `initial commit` Это пустой коммит, создаётся сразу после, создания ветки под новый функционал.
+* :tada: `инициализация` 
 * ```
   :tada: initial commit
   ```
@@ -42,15 +43,15 @@ Commit’ы с типами, которые отличаются от `fix:` и 
 * `build` :construction_worker: `:construction_worker:` Commits, that affect build components like build tool, ci pipeline, dependencies, project version, ...
 * `ops` :hammer: `:hammer:` Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...
 * `chore` :construction: `:construction:` Miscellaneous commits e.g. modifying `.gitignore`, Work in progress., ...
-* `revert` :rewind: `:rewind:` Revert
+* `revert` :rewind: `:rewind:` Revert. Откат изменений.
 
 ### Иконки
 https://gitmoji.dev/
 
 ### Примеры
-- Первый commit в ветке:
+- Просто commit в ветке:
 ```  
-feature/123: initial commit
+feature/123: feat: валидация емаила при регистрации 
 ```
   
 - Сообщение commit’а без тела:
@@ -90,6 +91,9 @@ chore!: drop Node 6 from testing matrix
 
 BREAKING CHANGE: dropping Node 6 which hits end of life in April
 ```
+
+>[!CAUTION]
+>В ветку `main` коммитить запрещено, только через [PR](./pr-conv.md) !
 
 ### Инструменты
 [Commit lint](https://commitlint.js.org/reference/cli)
