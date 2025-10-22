@@ -4,7 +4,7 @@
 ## Git
 - [Оформление коммита](git/commit-conv.md)
 - [Типы веток](git/branch-conv.md)
-- [Создание запроса на изменение(Pull Request)](git/pr-conv.md)
+- [Создание запроса на изменение (Pull Request)](git/pr-conv.md)
 - [Релиз на продакшн](https://github.com/delaemit/Conventions/blob/main/git/branch-conv.md#release)
 - Описание Readme
 
