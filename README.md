@@ -6,6 +6,7 @@
 - [Типы веток](git/branch-conv.md)
 - [Создание запроса на изменение (Pull Request)](git/pr-conv.md)
 - [Релиз на продакшн](https://github.com/delaemit/Conventions/blob/main/git/branch-conv.md#release)
+- [Шаблоны для создания задач](git/issue-tmp/config-issues.md)
 - Описание Readme
 
 ## Code Documentation
