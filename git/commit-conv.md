@@ -4,7 +4,7 @@
 
 Сообщения commit’ов должны быть следующей структуры:
 ```
-[номер задачи]: <опционально: icon> <тип>[опционально: scope]: <описание>
+[опционально: название ветки]: <опционально: icon> <тип>[опционально: scope]: <описание>
 
 [опционально: тело коммита]
 
@@ -51,33 +51,33 @@ https://gitmoji.dev/
 ### Примеры
 - Просто commit в ветке:
 ```  
-feature/123: feat: валидация емаила при регистрации 
+feature/123: :sparkles: feat: валидация емаила при регистрации 
 ```
   
-- Сообщение commit’а без тела:
+- Сommit’а без тела, без указания ветки и иконки, только тип изменения и сообщение:
 ```  
-feature/123: docs: correct spelling of CHANGELOG
+docs: correct spelling of CHANGELOG
 ```
 
 - Сообщение commit’а с иконкой:
   
-`"`feature/123: :memo: docs: correct spelling of CHANGELOG`"`
+`"`:memo: docs: correct spelling of CHANGELOG`"`
 ```  
-feature/123: :memo: docs: correct spelling of CHANGELOG
+:memo: docs: correct spelling of CHANGELOG
 ```
 
 
 
-- Сообщение commit’а с указанием контекста (scope):
+- Сообщение commit’а с указанием ветки, типа и контекста (scope):
 
 ```
-feature/123: feat(api): add polish language
+feature/123: feat(api): add chinese language
 ```
 
-- Сообщение commit’а, исправляющего ошибку (fix) с телом:
+- Сообщение commit’а, исправляющего ошибку (fix) с телом и иконкой:
   
 ```
-fix: correct minor typos in code
+:bug: fix: correct minor typos in code
 
 see the issue for details on the typos fixed
 
