@@ -13,9 +13,9 @@
 
 - **PR c релизом на прод:**
 
-`:bookmark: release: Задачи 123, 456, 789`
+`:bookmark: release: feature/123, feature/456, bugfix/789`
 
-🔖 release: Задачи 123, 456, 789
+🔖 release: feature/123, feature/456, bugfix/789
  <br>
  <br>
  <br>
