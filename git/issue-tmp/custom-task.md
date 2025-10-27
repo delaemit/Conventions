@@ -23,6 +23,4 @@ body:
       placeholder: TODO
     validations:
       required: true
-
-
 ```
