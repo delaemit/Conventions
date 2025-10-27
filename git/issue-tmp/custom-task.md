@@ -21,6 +21,4 @@ body:
     attributes:
       label: Задача
       placeholder: TODO
-    validations:
-      required: true
 ```
