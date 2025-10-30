@@ -36,14 +36,8 @@ BREAKING CHANGE может быть частью commit’а любого тип
 * ```
   :tada: initial commit
   ```
-* :sparkles: `feat:` Коммит с новым функционалом(фичей).
-* ```
-  :sparkles: feat: 
-  ```
-* :bug: `fix:` Коммит, исправляющий ошибку(баг).
-* ```
-  :bug: fix: 
-  ```
+* `feat` :sparkles: `:sparkles:` Коммит с новым функционалом(фичей).
+* `fix` :bug: `:bug:`  Коммит, исправляющий ошибку(баг).
 * `refactor` :recycle: `:recycle:` Commits, that rewrite/restructure your code, however does not change any API behaviour
 * `perf` :zap: `:zap:` Commits that improve performance
 * `style` :lipstick: `:lipstick:` Commits, that reformat code and do not affect the meaning (white-space, formatting, missing semi-colons, etc)
@@ -51,6 +45,7 @@ BREAKING CHANGE может быть частью commit’а любого тип
 * `docs` :memo: `:memo:` Commits, that affect documentation only
 * `build` :construction_worker: `:construction_worker:` Commits, that affect build components like build tool, ci pipeline, dependencies, project version, ...
 * `ops` :hammer: `:hammer:` Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...
+* `debug` :test_tube: `:test_tube:` Коммит, с помощью, которого вы что-то дебажите (тестируете) приложение. Например: добавление логов, временное отключение какого-то функционала ...  
 * `chore` :construction: `:construction:` Miscellaneous commits e.g. modifying `.gitignore`, Work in progress., ...
 * `revert` :rewind: `:rewind:` Revert. Откат изменений.
 
